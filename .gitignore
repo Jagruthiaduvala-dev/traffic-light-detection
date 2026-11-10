@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ===== Project-specific (never upload) =====
+
+# Datasets
+data/
+*.tfrecord
+*.parquet
+*.zip
+
+# Model weights and training outputs
+*.pt
+*.pth
+*.onnx
+runs/
+
+# Credentials
+kaggle.json
